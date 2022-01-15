@@ -73,7 +73,7 @@ int fibonacci(int index){
 
 int main(int argc, const char * argv[]){
     string str;
-    cin >> str;
+    getline >> str;
     cout << reverse(str) << endl;
     
     int x, y, z;
